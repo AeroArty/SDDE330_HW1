@@ -42,7 +42,7 @@ Class: Blog
 
 Class Blog_Entry
 - Attributes: datetime_created, datetime_updated, title, subtitle, text, blurb, author
-- Methods: get_text, set_text. get_datetime, set_datetime, get_title, set_title, get_subtitle, set_subtitle, get_blurb, set_blurb, get_author, set_author
+- Methods
 
 Class Blog_Metadata
 - Attributes: datetime_created, date_time_updated, title, subtitle, blurb, author
