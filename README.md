@@ -33,3 +33,16 @@ Use cases that must be supported by your design:
 - Well-named variables and methods following standard conventions. 
 #### Comments 
 - Adequate comments explaining classes, variables, and methods
+
+
+## Class Structure
+Class: Blog
+- Attributes: entry_list[Blog_Entry], title, subtitle, author, datetime_created, datetime_update, email_contact 
+- Methods: get_entry(single or all), add_entry, update_entry, delete_entry
+
+Class Blog_Entry
+- Attributes: datetime_created, datetime_updated, title, subtitle, text, blurb, author
+- Methods: get_text, set_text. get_datetime, set_datetime, get_title, set_title, get_subtitle, set_subtitle, get_blurb, set_blurb, get_author, set_author
+
+Class Blog_Metadata
+- Attributes: datetime_created, date_time_updated, title, subtitle, blurb, author
