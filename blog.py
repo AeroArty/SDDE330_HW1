@@ -1,6 +1,6 @@
 import datetime
 class BlogMetadata:
-    """Data structure for storing metadata needed for blog and entries
+    """Data structure for storing metadata needed for blog and entries.
     """
     def __init__(self, title: str = "", 
                 subtitle: str = "", 
