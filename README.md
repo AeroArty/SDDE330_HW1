@@ -37,12 +37,12 @@ Use cases that must be supported by your design:
 
 ## Class Structure
 Class: Blog
-- Attributes: entry_list[Blog_Entry], title, subtitle, author, datetime_created, datetime_update, email_contact 
+- Attributes: entry_list[BlogEntry], title, subtitle, author, time_created, time_update, email_contact 
 - Methods: get_entry(single or all), add_entry, update_entry, delete_entry
 
-Class Blog_Entry
+Class BlogEntry
 - Attributes: datetime_created, datetime_updated, title, subtitle, text, blurb, author
 - Methods
 
-Class Blog_Metadata
-- Attributes: datetime_created, date_time_updated, title, subtitle, blurb, author
+dict metadata
+- keys datetime_created, date_time_updated, title, subtitle, blurb, author
